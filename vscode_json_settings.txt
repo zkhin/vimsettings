@@ -1,0 +1,245 @@
+{
+"files.autoSave": "off",
+"editor.wordWrap": "on",
+"telemetry.enableTelemetry": false,
+"editor.acceptSuggestionOnEnter": "off",
+"editor.smoothScrolling": true,
+"editor.tabCompletion": true,
+"workbench.list.openMode": "doubleClick",
+"workbench.startupEditor": "newUntitledFile",
+"window.title": "${activeEditorLong}${dirty}",
+"problems.autoReveal": false,
+"terminal.integrated.fontWeightBold": "normal",
+"files.trimTrailingWhitespace": true,
+"python.autoComplete.addBrackets": true,
+"python.linting.mypyEnabled": true,
+"python.linting.pep8Enabled": false,
+"python.pythonPath": "python",
+"python.venvFolders": [
+    "miniconda3/envs",
+    ".pyenv",
+    ".direnv"
+],
+"editor.minimap.enabled": true,
+"material-icon-theme.showWelcomeMessage": false,
+"extensions.ignoreRecommendations": true,
+"jupyter.notebook.startupFolder": "/home/zayar/",
+"jupyter.appendResults": false,
+"editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+"editor.fontLigatures": true,
+"files.autoGuessEncoding": true,
+"workbench.statusBar.feedback.visible": false,
+"workbench.editor.tabSizing": "shrink",
+"window.titleBarStyle": "native",
+"extensions.closeExtensionDetailsOnViewChange": true,
+"http.proxyStrictSSL": false,
+"merge-conflict.codeLens.enabled": false,
+"merge-conflict.decorators.enabled": false,
+"window.newWindowDimensions": "inherit",
+"window.menuBarVisibility": "toggle",
+"explorer.decorations.colors": false,
+"zenMode.hideTabs": false,
+"window.enableMenuBarMnemonics": false,
+"materialTheme.fixIconsRunning": false,
+"workbench.statusBar.visible": true,
+"window.zoomLevel": 0,
+"editor.folding": false,
+"workbench.colorCustomizations": {
+    "activityBarBadge.background": "#616161",
+    "list.activeSelectionForeground": "#616161",
+    "list.inactiveSelectionForeground": "#616161",
+    "list.highlightForeground": "#616161",
+    "scrollbarSlider.activeBackground": "#61616150",
+    "editorSuggestWidget.highlightForeground": "#616161",
+    "textLink.foreground": "#616161",
+    "progressBar.background": "#616161",
+    "pickerGroup.foreground": "#616161",
+    "tab.activeBorder": "#616161",
+    "notificationLink.foreground": "#616161",
+    "editorWidget.resizeBorder": "#616161",
+    "editorWidget.border": "#616161",
+    "settings.modifiedItemForeground": "#616161",
+    "panelTitle.activeBorder": "#616161",
+    "statusBar.background": "#070707",
+    "statusBar.noFolderBackground": "#070707",
+    "statusBar.debuggingBackground": "#070707"
+},
+"materialTheme.accentPrevious": "Blue",
+"materialTheme.accent": "Graphite",
+"files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.**_cache": true,
+    "**/.vscode": true,
+    "**/.**_checkpoints": true,
+    "**/.gitignore": true,
+    "**/__pycache__": true,
+    "**/**-workspace": true
+},
+"explorer.sortOrder": "type",
+"git.enabled": false,
+"git.showInlineOpenFileAction": true,
+"diffEditor.renderIndicators": false,
+"editor.accessibilitySupport": "auto",
+"editor.overviewRulerBorder": false,
+"workbench.editor.showTabs": true,
+"editor.matchBrackets": false,
+"editor.formatOnType": true,
+"editor.formatOnPaste": false,
+"workbench.editor.enablePreviewFromQuickOpen": true,
+"workbench.colorTheme": "Material Theme Ocean High Contrast",
+"editor.selectionHighlight": false,
+"workbench.iconTheme": "vscode-great-icons",
+"editor.fontSize": 13,
+"editor.minimap.renderCharacters": true,
+"editor.minimap.showSlider": "always",
+"editor.minimap.side": "right",
+"workbench.tree.horizontalScrolling": true,
+"zenMode.hideStatusBar": false,
+"materialTheme.autoApplyIcons": false,
+"explorer.autoReveal": true,
+"python.jediEnabled": false,
+"vim.easymotion": true,
+"vim.easymotionMarkerBackgroundColor": "darkblue",
+"vim.easymotionKeys": "hjklqwertyuizxcvbnmpoasdf",
+"vim.easymotionMarkerForegroundColorOneChar": "white",
+"vim.easymotionMarkerForegroundColorTwoChar": "white",
+"vim.insertModeKeyBindings": [
+    {
+        "before": ["j", "j"],
+        "after": [
+            "<Esc>"
+        ]
+    }
+],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                "W"
+            ],
+            "after": [
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "v", "f"
+            ],
+            "after": [
+                "<leader>", "<leader>", "s", "<char>"
+            ]
+        }
+],
+"vim.normalModeKeyBindingsNonRecursive": [
+
+    {
+        "before": ["-"],
+        "after": [
+            "C-f"
+        ]
+    },
+    {
+        "before": ["="],
+        "after": [
+            "C-b"
+        ]
+    },
+    {
+        "before": ["s"],
+        "after": [
+            "<leader>", "<leader>", "2", "s"
+        ]
+    },
+    {
+        "before": ["f"],
+        "after": [
+            "<leader>", "<leader>", "f"
+        ]
+    },
+    {
+        "before": ["<leader>", "l"],
+        "after": [
+            "<leader>", "<leader>", "w"
+        ]
+    },
+    {
+        "before": ["<leader>", "j"],
+        "after": [
+            "<leader>", "<leader>", "j"
+        ]
+    },
+    {
+        "before": ["<leader>", "k"],
+        "after": [
+            "<leader>", "<leader>", "k"
+        ]
+    },
+    {
+        "before": ["<leader>", "h"],
+        "after": [
+            "<leader>", "<leader>", "b"
+        ]
+    },
+    {
+        "before": ["F"],
+        "after": [
+            "<leader>", "<leader>", "F"
+        ]
+    },
+    {
+        "before": ["W"],
+        "after": [
+            "b"
+        ]
+    },
+    {
+        "before": ["<enter>"],
+        "after": [
+            "$"
+        ]
+    },
+    {
+        "before": ["<backspace>"],
+        "after": [
+            "|"
+        ]
+    }
+
+],
+    "vim.easymotionMarkerFontSize": "13",
+    "vim.easymotionMarkerFontWeight": "normal",
+    "vim.easymotionMarkerFontFamily": "Source Code Pro",
+    "vim.easymotionMarkerYOffset": 0,
+    "vim.easymotionMarkerHeight": 16,
+    "vim.easymotionMarkerWidthPerChar": 8,
+    "vim.statusBarColorControl": false,
+    "vim.useCtrlKeys": true,
+    "vim.statusBarColors.normal": "#070707",
+    "vim.statusBarColors.visual": "#16272a",
+    "vim.statusBarColors.replace": "#00000",
+    "vim.statusBarColors.insert": "#041827",
+    "vim.statusBarColors.visualblock": "#16272a",
+    "vim.statusBarColors.visualline": "#16272a",
+    "vim.leader": "<space>",
+    "vim.hlsearch": false,
+    "vim.sneak": true
+}
