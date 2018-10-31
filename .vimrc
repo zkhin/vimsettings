@@ -1,15 +1,15 @@
-call plug#begin('~/.vim/plugged')
-Plug 'mhinz/vim-janah'
-Plug 'mhinz/vim-startify'
+"call plug#begin('~/.vim/plugged')
+"Plug 'mhinz/vim-janah'
+"Plug 'mhinz/vim-startify'
 "Plug 'Valloric/YouCompleteMe'
-Plug 'easymotion/vim-easymotion'
-Plug 'davidhalter/jedi-vim'
-Plug 'ervandew/supertab'
-call plug#end()
-let g:jedi#show_call_signatures = "2"
+"Plug 'easymotion/vim-easymotion'
+"Plug 'davidhalter/jedi-vim'
+"Plug 'ervandew/supertab'
+"call plug#end()
+"let g:jedi#show_call_signatures = "2"
 "let g:jedi#use_tabs_not_buffers = 1
-autocmd FileType python setlocal completeopt-=preview
-let g:jedi#use_splits_not_buffers = "top"
+"autocmd FileType python setlocal completeopt-=preview
+"let g:jedi#use_splits_not_buffers = "top"
 set t_ut=
 set t_Co=254
 set cul
@@ -23,7 +23,7 @@ hi CursorLine ctermbg=234
 "hi EasyMotionIncSearch ctermbg=green ctermfg=black
 "let g:EasyMotion_do_shade = 0
 "hi EasyMotionTarget ctermbg=none ctermfg=yellow
-set mouse=a
+"set mouse=a
 set number
 imap jj <C-[>
 map <Enter> <End>
