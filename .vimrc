@@ -2,6 +2,7 @@ execute pathogen#infect()
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-janah'
 Plug 'mhinz/vim-startify'
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'easymotion/vim-easymotion'
 "Plug 'davidhalter/jedi-vim'
@@ -47,7 +48,7 @@ omap <enter> <End>
 omap <BS> <Home>
 set splitright
 com J :term++close
-com L :Sexplore
+com L :idocuments
 com T :tabnew
 let g:EasyMotion_smartcase = 1
 let g:EasyMotion_verbose = 0
