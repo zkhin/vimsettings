@@ -2,7 +2,7 @@ execute pathogen#infect()
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-janah'
 Plug 'mhinz/vim-startify'
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+"Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'easymotion/vim-easymotion'
 "Plug 'davidhalter/jedi-vim'
