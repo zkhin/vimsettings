@@ -1,4 +1,4 @@
-execute pathogen#infect()
+"execute pathogen#infect()
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-janah'
 Plug 'mhinz/vim-startify'
